@@ -12,6 +12,11 @@
   height: 20px;
 }
 
+.social-icon {
+  width: 40px;
+  height: 40px;
+}
+
 a.icon-link {
   transition: transform 200ms ease-in-out;
 }
@@ -20,9 +25,18 @@ a.icon-link:hover {
   cursor: pointer;
   stroke-width: 5;
   margin: 0;
-  transform: rotate(15deg);
+  transform: rotate(5deg);  /*was 15deg*/
 }
 
+/* Horizontal line */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
 
 /* Navbar Styling */
 
@@ -35,6 +49,12 @@ a.icon-link:hover {
   position: fixed;
   top: 0;
   left: 0;
+  background-color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-title-link {
@@ -103,4 +123,44 @@ a.no-underline:hover {
   #footer {
     padding: 20px 20px;
   }
+}
+
+/* Skills */
+
+#skills {
+  /*width: 100%;*/
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.skill-name {
+  padding: 10px 10px;
+  font-weight: 400;
+  color: black;
+  margin: 20 px 0;
+  display: flex;
+}
+
+.skill-bar {
+  height: 4 px;
+  background: gainsboro;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+
+.skill-per {
+  height: 4px;
+  background: black;
+  border-radius: 3 px;
+  /*position: relative;*/
+}
+
+/* icon row */
+.icon-row {
+  display: flex;
+}
+
+.icon-column {
+  flex: 25%;
+  padding: 5px;
 }

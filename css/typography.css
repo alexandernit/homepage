@@ -17,8 +17,18 @@ body {
   font-weight: 500;
 }
 
+.image-caption-small {
+  font-size: 10px;
+  font-weight: 500;
+}
+
 .main-title {
   font-size: 40px;
+  font-weight: 700;
+}
+
+.header-text {
+  font-size: 36px;
   font-weight: 700;
 }
 
@@ -27,10 +37,44 @@ body {
   font-weight: 700;
 }
 
+.subsubheader-text {
+  font-size: 15px;
+  font-weight: 700;
+}
+
 .body-text {
   font-size: 16px;
   font-weight: 500;
 }
+
+.bold-body-text {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.tab{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+li {
+  margin: 15px;
+}
+
+.cv-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* Adjust spacing as needed */
+}
+
+.degree {
+  text-align: left;
+}
+
+.dates {
+  text-align: right;
+}
+
 
 .project-card-text {
   overflow: hidden;
